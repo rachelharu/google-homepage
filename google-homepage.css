@@ -5,7 +5,7 @@ div{
     display: flex;
     justify-content: center;
     align-items:center;
-    height:500px;
+    height:200px;
 }   
 
 /* search bar 
@@ -61,11 +61,11 @@ body, html {
   
   /* Style the search field */
   form.example input[type=text] {
-    padding: 10px;
+    padding: 5px;
     font-size: 17px;
     border: 1px solid grey;
     /*float: left; */
-    width: 50%;
+    width: 35%;
     background: #f1f1f1;
      
   }
@@ -74,8 +74,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: auto;
-    margin-bottom: 75%;
+    height: 20px;
   }
    
   
