@@ -3,13 +3,14 @@
 
 .left { 
   list-style:none;
-  margin:10px;
+  margin-left:5px;
   float: left; 
+  margin-top: 16px;
 }
 
 .right { 
     list-style:none;
-    margin:10px;
+    margin:5px;
     float: right; 
   }
 
@@ -28,7 +29,8 @@ div{
 
   * {
     box-sizing: border-box;
-     
+    font-family: arial,sans-serif;
+    font-size: 14px;
   }
   
   /* Style the search field */
@@ -48,7 +50,21 @@ div{
     align-items: center;
     height: 20px;
   }
-   
+  
+  .button {
+    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-left: 450px;
+  }
   
   /* Clear floats *
   form.example::after {
