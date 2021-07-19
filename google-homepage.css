@@ -1,4 +1,20 @@
  
+
+
+.left { 
+  list-style:none;
+  margin:10px;
+  float: left; 
+}
+
+.right { 
+    list-style:none;
+    margin:10px;
+    float: right; 
+  }
+
+
+
 /* google icon */
 div{
 
